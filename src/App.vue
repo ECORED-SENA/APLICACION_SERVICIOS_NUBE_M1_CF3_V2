@@ -46,16 +46,16 @@ export default {
   color: #12263F !important
 .banner-principal-decorativo-1
   animation: float1 2s ease-in-out infinite alternate !important
-  top: 88% !important
+  top: 10% !important
   right: 25% !important
 .banner-principal-decorativo-2
   animation: float1 3s ease-in-out infinite alternate !important
-  top: 67% !important
-  right: 21% !important
+  top: 62% !important
+  right: 60% !important
 .banner-principal-decorativo-3
   animation: float1 3s ease-in-out infinite alternate !important
-  top: 67% !important
-  right: 21% !important
+  top: 40% !important
+  right: 7% !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero
   background-color: #3EE2A8 !important
 .cont_titulo_decorativo, .cont_titulo_decorativo *
@@ -72,6 +72,9 @@ export default {
   bottom: 0
   background-color: #8DEECC
   border-radius: 5px
+.banner-principal__row .banner-principal__img
+  padding-top: 5rem !important
+  padding-bottom: 5rem !important
 @media screen and (max-width: 992px)
   .banner-principal .tarjeta
     background-size: cover !important

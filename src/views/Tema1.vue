@@ -9,11 +9,11 @@
 
     .cont_1_1.p-4.p-lg-5
       .row
-        .col-lg-4.col-xl-3.mb-4.mb-lg-0(data-aos="fade-right")
+        .col-lg-4.col-xl-4.mb-4.mb-lg-0(data-aos="fade-right")
           figure.m-auto.col-md-5.col-lg-12
             img(src="@/assets/curso/tema1/1.png" style="z-index:1;")
-        .col-lg-8.col-xl-9(data-aos="fade-left" style="place-self:end;")
-          .cont_1_2.p-4
+        .col-lg-8.col-xl-8(data-aos="fade-left" style="place-self:center;")
+          .cont_1_2
             p.mb-0 El proceso de análisis de requisitos #[strong(style="color:#0F6BD2;") permite, principalmente, el estudio de las necesidades de los usuarios para definir requisitos del sistema por medio de la producción del documento de especificación de requisitos donde se describe lo que el sistema debe hacer], pero no el cómo. Así es como este proceso, además de involucrar un proceso de análisis, también requiere de la síntesis de la información existente. 
 
     p.mt-5(data-aos="fade-right" style="color:#0F6BD2;font-weight:bold;") A continuación, se describen algunas técnicas que pueden ser utilizadas para entender y ordenar los requisitos identificados para su posterior redacción en un artefacto formal dependiendo del marco de desarrollo de software utilizado.
@@ -96,7 +96,7 @@
           p.mb-0 Usar solo el valor del negocio como elemento de priorización puede generar problemas ya que el valor asociado por el cliente a un requerimiento puede ser muy superfluo y, además, no considera detalles clave como el esfuerzo que se requiere para su desarrollo, por esta razón también se usa el valor de puntos de historia, que no es más que otro valor numérico asignado por el equipo de desarrolladores a cada requerimiento donde expresa una estimación de esfuerzo, cuanto más grande sea el número implica más esfuerzo requerido con miras a realizar el requerimiento.
         p.mt-4 Para lograr la priorización de los requerimientos, se debe realizar el cálculo del cociente obtenido a partir de los puntos de valor del negocio dividido entre los puntos de historia, quedando entonces una priorización donde estarán en los primeros lugares los requerimientos más sencillos de resolver por los desarrolladores y que tengan mayor interés por parte del cliente. #[strong(style="color:#0F6BD2;") A continuación se da un ejemplo].
     
-    .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade-up")
+    .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
       h5 Tabla 1. 
       span Ejemplo de aplicación técnica de puntos de historia y valor del negocio
     
@@ -169,13 +169,187 @@
         figure.m-auto.col-md-7.col-lg-12
           img(src="@/assets/curso/tema1/12.png")
     
-    .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade-up")
+    .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
       h5 Tabla 2. 
       span Referencia para la técnica urgente
-          
+    
+    .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
+      table
+        caption.fw-normal(style="background-color:#F6F6F6;color:#636363;") Nota: Tomado de Porfirio (2021).
+        thead(style="border:0;")
+        tbody
+          tr
+            td.fw-bold.text-center(style="border:1px #345382 solid;" rowspan="8" colspan="3") Valor del negocio
+          tr
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#E3EDF8;") 5
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#C5F5B9;") 5
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFF2AE;") 10
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFD574;") 15
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFD574;") 20
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#F37474;") 25
+          tr
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#E3EDF8;") 4
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#C5F5B9;") 4
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFF2AE;") 8
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFF2AE;") 12
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFD574;") 16
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFD574;") 20
+          tr
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#E3EDF8;") 3
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#C5F5B9;") 3
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFF2AE;") 6
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFF2AE;") 9
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFF2AE;") 12
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFD574;") 15
+          tr
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#E3EDF8;") 2
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#C5F5B9;") 2
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#C5F5B9;") 4
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFF2AE;") 6
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFF2AE;") 8
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#FFF2AE;") 10
+          tr
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#E3EDF8;") 1
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#C5F5B9;") 1
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#C5F5B9;") 2
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#C5F5B9;") 3
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#C5F5B9;") 4
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#C5F5B9;") 5
+          tr
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#E3EDF8;") 
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#E3EDF8;") 1
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#E3EDF8;") 2
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#E3EDF8;") 3
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#E3EDF8;") 4
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#E3EDF8;") 5
+          tr
+            td.text-center.fw-bold(style="border:1px #345382 solid;background-color:#F6F6F6;" colspan="6") Urgencia
+    
+    p.mt-4(data-aos="fade-right") Luego, se consideran los requerimientos de mayor prioridad que están en el sector de color rojo, después los de color naranja, seguido de los de color amarillo y, por último, los requerimientos del sector de color verde. Para entender mejor este estilo de priorización, observar el siguiente ejemplo:
 
+    .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
+      h5 Tabla 3. 
+      span Ejemplo de aplicación técnica urgente
 
+    .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
+      table
+        caption.fw-normal(style="background-color:#F6F6F6;color:#636363;") Tabla 1 - Ejemplo de aplicación técnica de puntos de historia y valor del negocio
+        thead(style="border:0;")
+          tr(style="background-color:#FFCE00;")
+            th.text-center(style="border:0;") Requerimientos
+            th.text-center(style="border:0;") Valor del negocio
+            th.text-center(style="border:0;") Urgencia
+            th.text-center(style="border:0;") Sector
+        tbody
+          tr(style="background-color:#F6F6F6;")
+            td.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") R01
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 1
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 4
+            td.text-center.fw-bold(style="border:0;background-color:#C5F5B9;") Verde
+          tr(style="background-color:#fff;")
+            td.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") R02
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 2
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 4
+            td.text-center.fw-bold(style="border:0;background-color:#FFF2AE;") Amarillo
+          tr(style="background-color:#F6F6F6;")
+            td.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") R03
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 5
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 5
+            td.text-center.fw-bold(style="border:0;background-color:#FF8B8B;") Rojo
+          tr(style="background-color:#fff;")
+            td.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") R04
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 4
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 3
+            td.text-center.fw-bold(style="border:0;background-color:#FFF2AE;") Amarillo
+          tr(style="background-color:#F6F6F6;")
+            td.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") R05
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 5
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 4
+            td.text-center.fw-bold(style="border:0;background-color:#FFD574;") Naranja
+          tr(style="background-color:#fff;")
+            td.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") R06
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 3
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 1
+            td.text-center.fw-bold(style="border:0;background-color:#C5F5B9;") Verde
+          tr(style="background-color:#F6F6F6;")
+            td.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") R07
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 1
+            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") 3
+            td.text-center.fw-bold(style="border:0;background-color:#C5F5B9;") Verde
+    
+    p.mt-4(data-aos="fade-right") Al realizar la multiplicación de los valores de negocio y el valor de la urgencia, se puede establecer en qué sector se encuentra cada requerimiento. Ahora bien, tomando en cuenta los valores del ejemplo de la tabla anterior, se puede concluir que el primer requerimiento a abordar sería el R03 que está en el sector de color rojo, luego el requerimiento R05, que está en el sector de color naranja, y así sucesivamente.
 
+    .cont_titulo_decorativo.mt-5(data-aos="fade-left")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema1/6.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Técnica MoSCoW
+    
+    p(data-aos="fade-right") Esta técnica se basa en la asignación de etiquetas a cada requerimiento, y las disponibles se relacionan a continuación:
+
+    .row.mt-5
+      .col-lg.col-md-6.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.p-3.cont_hover1(style="background-color:#DEE1ED;border-radius:12px;")
+          .text-end 
+            figure.cont_image_hover1
+              img(src="@/assets/curso/tema1/18.svg" style="max-width:60px;display:inline;")
+            figure.cont_image_hover2(style="display:none;")
+              img(src="@/assets/curso/tema1/13.svg" style="max-width:60px;display:inline;")
+          .text-center 
+            figure
+              img(src="@/assets/curso/tema1/14.svg" style="max-width:100px;display:inline;")
+          p.text-center.mb-0.mt-3 M: indica una funcionalidad que debe estar (#[em Must]).
+      .col-lg.col-md-6.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.p-3.cont_hover1(style="background-color:#DEE1ED;border-radius:12px;")
+          .text-end 
+            figure.cont_image_hover1
+              img(src="@/assets/curso/tema1/18.svg" style="max-width:60px;display:inline;")
+            figure.cont_image_hover2(style="display:none;")
+              img(src="@/assets/curso/tema1/13.svg" style="max-width:60px;display:inline;")
+          .text-center 
+            figure
+              img(src="@/assets/curso/tema1/15.svg" style="max-width:100px;display:inline;")
+          p.text-center.mb-0.mt-3 S: indica una funcionalidad que debería estar (#[em Should]).
+      .col-lg.col-md-6.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.p-3.cont_hover1(style="background-color:#DEE1ED;border-radius:12px;")
+          .text-end 
+            figure.cont_image_hover1
+              img(src="@/assets/curso/tema1/18.svg" style="max-width:60px;display:inline;")
+            figure.cont_image_hover2(style="display:none;")
+              img(src="@/assets/curso/tema1/13.svg" style="max-width:60px;display:inline;")
+          .text-center 
+            figure
+              img(src="@/assets/curso/tema1/16.svg" style="max-width:100px;display:inline;")
+          p.text-center.mb-0.mt-3 C: indica una funcionalidad que podría estar (#[em Could]).
+      .col-lg.col-md-6.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.p-3.cont_hover1(style="background-color:#DEE1ED;border-radius:12px;")
+          .text-end 
+            figure.cont_image_hover1
+              img(src="@/assets/curso/tema1/18.svg" style="max-width:60px;display:inline;")
+            figure.cont_image_hover2(style="display:none;")
+              img(src="@/assets/curso/tema1/13.svg" style="max-width:60px;display:inline;")
+          .text-center 
+            figure
+              img(src="@/assets/curso/tema1/17.svg" style="max-width:100px;display:inline;")
+          p.text-center.mb-0.mt-3 W: indica una funcionalidad que no estará por ahora, de pronto más adelante (#[em Wont]).
+    
+    p.mt-4(data-aos="fade-right") Los requerimientos son priorizados utilizando el siguiente orden: primero los que tienen etiqueta #[strong(style="color:#0F6BD2;") M], luego los requerimientos con etiqueta #[strong(style="color:#0F6BD2;") S], después aquellos con #[strong(style="color:#0F6BD2;") C] y, finalmente, los etiquetados como #[strong(style="color:#0F6BD2;") W].
+
+    .row.mt-5
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        figure.m-auto.col-md-7.col-lg-12
+          img(src="@/assets/curso/tema1/19.svg")
+      .col-lg-9(data-aos="fade-left")
+        .p-4(style="background-color:#E1F6EF;border-radius:12px;")
+          p.mb-0 Esta técnica requiere de un proceso de consenso sobre el significado de cada una de las etiquetas asignables a cada requerimiento. Los requisitos de tipo #[strong(style="color:#0F6BD2;") M] son aquellos obligatorios y que, de no ser abordados, implicaría directamente el fracaso; es importante entonces acordar qué se puede entregar y que sea útil, adicionalmente deben formar parte de un conjunto coherente, ya que si, sencillamente se seleccionan todos los requerimientos de tipo #[strong(style="color:#0F6BD2;") M], automáticamente todos se transforman en requerimientos de tipo #[strong(style="color:#0F6BD2;") M] y se pierde la dinámica de la técnica.
+        .row.mt-4
+          .col-auto(style="place-self:center;")
+            figure
+              img(src="@/assets/curso/tema1/20.svg")
+          .col
+            p.mb-0 Normalmente el proceso de desarrollo de software es iterativo e incremental por lo que dependiendo del momento en que se encuentre un requerimiento, que ahora puede ser #[strong(style="color:#0F6BD2;") W], en la siguiente iteración puede asumir un valor de #[strong(style="color:#0F6BD2;") M]. 
 
 
 
@@ -217,8 +391,8 @@ export default {
   content: ''
   position: absolute
   width: 117%
-  height: 140%
-  top: -24%
+  height: 130%
+  top: -14%
   background-color: #fff
   left: -15%
   z-index: 0
@@ -236,6 +410,14 @@ export default {
   background: url(../assets/curso/tema1/3.png)
   background-size: cover
   background-position: top
+.cont_hover1:hover
+  background-color: #273A89 !important
+.cont_hover1:hover *
+  color: #fff !important
+.cont_hover1:hover .cont_image_hover1
+  display: none !important
+.cont_hover1:hover .cont_image_hover2
+  display: block !important
 @media screen and (max-width: 992px)
   .cont_1_1:before
     height: 100%
