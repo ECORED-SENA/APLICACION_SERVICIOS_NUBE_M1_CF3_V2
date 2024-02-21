@@ -14,10 +14,10 @@
 
     .mt-5.p-4(style="background-color:#273A89;border-radius:4px;")
       .row
-        .col-auto(data-aos="fade-right")
+        .col-auto(data-aos="fade-right" style="place-self:center;")
           figure
             img(src="@/assets/curso/intro1.png")
-        .col(data-aos="fade-left")
+        .col(data-aos="fade-left" style="place-self:center;")
           p.mb-0.text-white En este componente formativo se estudiarán los principios básicos sobre los que se fundamenta el proceso de análisis de requisitos desde marcos de desarrollo de software tradicional y ágiles. También, introduce a diferentes formas (planillas y estándares) para realizar el proceso de documentación de requisitos.
     
 </template>
