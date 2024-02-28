@@ -37,7 +37,7 @@
       p.mt-4.fw-bold(data-aos="fade-right") Sumado a esto, se presenta la estructura base de un documento SRS, indicando cuáles son los apartados principales.
 
       .titulo-sexto.color-acento-contenido.mt-4(data-aos="zoom-in-down")
-        h5 Tabla 6. 
+        h5 Figura 2. 
         span Estructura base de un documento SRS
       
       .row.mt-4
@@ -194,17 +194,17 @@
         p Los marcos de trabajo ágiles promueven la comunicación oral sobre la documentación exhaustiva en la mayoría de los procesos del ciclo de vida, particularmente en los procesos de identificación de necesidades y diseño. Sin embargo, uno de los artefactos presentes para el modelado de requerimientos son las historias de usuario.
         .p-4.mt-4(style="border-radius:12px;background-color:#DCECFE;")
           .row
-            .col-auto(style="place-self:center;")
-              figure
+            .col-lg-auto.col-md-12.col-12.mb-4.mb-lg-0(style="place-self:center;")
+              figure.col-3.m-auto.col-lg-12
                 img(src="@/assets/curso/tema2/11.svg")
-            .col(style="place-self:center;")
+            .col-lg(style="place-self:center;")
               p.mb-0 Las historias de usuario son una explicación general e informal de una función del #[em software] escrita desde la perspectiva del usuario final o cliente. Permiten describir de una manera muy breve un requerimiento, estimar prioridades, alcance y tiempo de realización (Rivadeneira, 2014). En la siguiente tabla, se puede observar la estructura base de un documento de historia de usuario.
       .col-lg-5(data-aos="fade-left")
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema2/12.png")
     
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
-      h5 Tabla 7. 
+      h5 Tabla 6. 
       span Estructura base de un documento de historia de usuario
 
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
@@ -292,7 +292,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
     .row.mt-5
-      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="fade-right")
         figure.m-auto.col-5.col-md-6.col-lg-12
           img(src="@/assets/curso/tema2/19.png")
       .col-lg-8(data-aos="fade-left")
@@ -328,13 +328,13 @@
       p.mt-5(data-aos="fade-right") A continuación, se expone una figura en la que se representan los artefactos generados dentro del marco de trabajo Scrum y que permiten la gestión de los requisitos y el evento desde el cual se construye inicialmente.
 
       .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
-        h5 Figura 2.
+        h5 Figura 3.
         span Pila de producto vs. pila del #[em Sprint]
       .col-xl-10.m-auto.mt-4(data-aos="zoom-in-up")
         .bg-white.p-3.p-lg-5
           .col-xl-11.m-auto
             figure
-              img(src="@/assets/curso/tema2/24.svg")
+              img(src="@/assets/curso/tema2/24.svg" alt="Pila de producto vs. pila del Sprint")
     
     Separador
 
@@ -453,12 +453,12 @@
         p.mt-4 Cada equipo de trabajo puede realizar un mapeo más detallado de su proceso y agregar tanta sección como considere pertinente, como se muestra en la siguiente figura.
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
-      h5 Figura 3.
+      h5 Figura 4.
       span Tablero Kanban
     .cont_2_4.mt-4(data-aos="zoom-in-up")
       .col-xl-8.col-lg-10.m-auto.pt-4.pb-4.pt-lg-5.pb-lg-5
         figure
-          img(src="@/assets/curso/tema2/34.svg")
+          img(src="@/assets/curso/tema2/34.svg" alt="Tablero Kanban")
     
     p.mt-5(data-aos="fade-right") Dependiendo del marco de trabajo, varía la forma en la que se describen cada una de las tareas del tablero Kanban, por ejemplo, dentro de un marco de trabajo como Scrum cada una de las tareas se podría describir en el formato de historias de usuario.
 

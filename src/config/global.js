@@ -138,34 +138,34 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: '2. Especificación de requisitos',
       referencia:
         'UMNG. (2019). <em>Elementos de la norma IEEE 830</em>. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/LjBOTZdd_iE',
     },
     {
-      tema: '',
+      tema: '2. Especificación de requisitos',
       referencia:
         'California State University Long Beach. (2021). <em>Requirements Engineering, CSU Long Beach, Penzenstadler</em>. ',
       tipo: 'Página web',
       link: 'https://bit.ly/3rtBKXN',
     },
     {
-      tema: '',
+      tema: '2.1 Estándar IEEE 830',
       referencia:
         '830-1998 - IEEE Recommended Practice for Software Requirements Specifications. (1998). <em>IEEE Standard | IEEE Xplore</em>.',
       tipo: 'Página web',
       link: 'https://ieeexplore.ieee.org/document/720574 ',
     },
     {
-      tema: '',
+      tema: '2.1 Estándar IEEE 830',
       referencia: 'SO/IEC/IEEE 29148:2011. (s. f.). ISO. ',
       tipo: 'Página web',
       link: 'https://www.iso.org/standard/45171.html',
     },
     {
-      tema: '',
+      tema: '2.1 Estándar IEEE 830',
       referencia:
         'Scrum Certification, Agile Certification | Scrum, Agile Training. (n.d.).<em>ScrumStudy</em>.',
       tipo: 'Video',
@@ -281,6 +281,18 @@ export default {
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Diseñadora instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Miroslava González Hernández',
+          cargo: 'Diseñadora Instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Rafael Neftali Lizcano Reyes',
+          cargo: 'Responsable desarrollo curricular Ecosistema RED Santander',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

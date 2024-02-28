@@ -13,10 +13,10 @@
           figure.m-auto.col-md-5.col-lg-12.col-8
             img(src="@/assets/curso/tema1/1.png" style="z-index:1;")
         .col-lg-8.col-xl-8(data-aos="fade-left" style="place-self:center;")
-          .cont_1_2
+          .cont_1_2.p-4.p-lg-0
             p.mb-0 El proceso de análisis de requisitos #[strong(style="color:#0F6BD2;") permite, principalmente, el estudio de las necesidades de los usuarios para definir requisitos del sistema por medio de la producción del documento de especificación de requisitos donde se describe lo que el sistema debe hacer], pero no el cómo. Así es como este proceso, además de involucrar un proceso de análisis, también requiere de la síntesis de la información existente. 
 
-    p.mt-5(data-aos="fade-right" style="color:#0F6BD2;font-weight:bold;") A continuación, se describen algunas técnicas que pueden ser utilizadas para entender y ordenar los requisitos identificados para su posterior redacción en un artefacto formal dependiendo del marco de desarrollo de software utilizado.
+    p.mt-5(data-aos="fade-right" style="color:#0F6BD2;font-weight:bold;") A continuación, se describen algunas técnicas que pueden ser utilizadas para entender y ordenar los requisitos identificados para su posterior redacción en un artefacto formal dependiendo del marco de desarrollo de #[em(style="color:#0F6BD2;font-weight:bold;") software] utilizado.
 
     Separador
 
@@ -37,12 +37,6 @@
         .col-lg-5(data-aos="fade-left")
           figure.m-auto.col-md-7.col-lg-12.col-8
             img(src="@/assets/curso/tema1/2.png")
-      .row.mt-4
-        .col-auto(data-aos="fade-right" style="place-self:center;")
-          figure
-            img(src="@/assets/curso/tema1/5.svg")
-        .col(data-aos="fade-left" style="place-self:center;")
-          p.mb-0 El proceso de priorización es continuo, es decir, la prioridad de un requisito puede variar a lo largo del proyecto, así como los requisitos también pueden variar a lo largo del mismo. La priorización no es un proceso sencillo, por lo que, además de conocer las diferentes técnicas, es importante la toma de decisiones y estas, en el marco de un proyecto, siempre van a generar inconformidades, pero si no se decide respecto a la priorización de requisitos es como si no se fundamentaran las bases sobre las que el equipo de desarrollo va a construir el sistema.
       
       .cont_titulo_decorativo.mt-5(data-aos="fade-right")
         .row
@@ -66,7 +60,7 @@
                   figure
                     img(src="@/assets/curso/tema1/8.svg" style="max-width:100px;display:inline;")
               p.mt-3.mb-0 Esta técnica tiene la ventaja de que solo puede existir un número 1, lo cual evita muchos problemas por parte de los interesados o responsables del negocio que quieren que todos los requerimientos tengan prioridad 1; adicionalmente, aporta claridad y evita confusiones. Cada elemento se prioriza con relación al resto de elementos, lo que simplifica el proceso.
-          .col-lg.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-lg(data-aos="fade-left")
             .h-100.text-white.p-4.p-lg-5.pt-4.pt-lg-4(style="background-color:#273A89;border-radius:10px;")
               .d-flex.justify-content-between
                 div
@@ -77,7 +71,7 @@
                     img(src="@/assets/curso/tema1/8.svg" style="max-width:100px;display:inline;")
               p.mt-3.mb-0 Para usar adecuadamente esta técnica se requiere de un profundo conocimiento de todos los requerimientos definidos y si bien el proceso parece simple, se requiere de un gran esfuerzo por parte del equipo para situar a cada requerimiento en la posición correcta.
     
-    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+    .cont_titulo_decorativo.mt-3(data-aos="fade-right")
       .row
         .col-auto.pe-0
           figure.ps-2
@@ -233,7 +227,7 @@
 
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
       table
-        caption.fw-normal(style="background-color:#F6F6F6;color:#636363;") Tabla 1 - Ejemplo de aplicación técnica de puntos de historia y valor del negocio
+        caption.fw-normal(style="background-color:#F6F6F6;color:#636363;") Tabla 3 - Ejemplo de aplicación técnica urgente
         thead(style="border:0;")
           tr(style="background-color:#FFCE00;")
             th.text-center(style="border:0;") Requerimientos
@@ -345,7 +339,7 @@
         .p-4(style="background-color:#E1F6EF;border-radius:12px;")
           p.mb-0 Esta técnica requiere de un proceso de consenso sobre el significado de cada una de las etiquetas asignables a cada requerimiento. Los requisitos de tipo #[strong(style="color:#0F6BD2;") M] son aquellos obligatorios y que, de no ser abordados, implicaría directamente el fracaso; es importante entonces acordar qué se puede entregar y que sea útil, adicionalmente deben formar parte de un conjunto coherente, ya que si, sencillamente se seleccionan todos los requerimientos de tipo #[strong(style="color:#0F6BD2;") M], automáticamente todos se transforman en requerimientos de tipo #[strong(style="color:#0F6BD2;") M] y se pierde la dinámica de la técnica.
         .row.mt-4
-          .col-auto(style="place-self:center;")
+          .col-auto.d-none.d-lg-block(style="place-self:center;")
             figure
               img(src="@/assets/curso/tema1/20.svg")
           .col(style="place-self:center;")
@@ -369,7 +363,7 @@
                 img(src="@/assets/curso/tema1/21.svg")
             .col(style="place-self:center;")
               p.mb-0 Este tipo de técnica funciona muy bien para proyectos pequeños con un dueño de negocio que tiene mucho conocimiento del problema y de la solución que necesita para resolverlo; sin embargo, se debe utilizar esta técnica con cuidado ya que se basa en una visión sesgada del negocio.
-      .col-lg-5(data-aos="fade-left")
+      .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         figure.col-8.col-md-7.col-lg-12.m-auto
           img(src="@/assets/curso/tema1/22.png")
     
@@ -516,20 +510,20 @@
             th.text-center(style="border:0;background-color:#4DD0E1;border-bottom:2px white solid;" colspan="3") OBJETIVO
         tbody
           tr(style="background-color:#FFCA28;")
-            td.text-center(style="border:0;") ID
-            td.text-center(style="border:0;") Código #[br] jerárquico 
-            td.text-center(style="border:0;") Descripción
-            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") Tipo
-            td.text-center(style="border:0;") Versión
-            td.text-center(style="border:0;") Estado 
-            td.text-center(style="border:0;") Fecha de estado
-            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") Responsable
-            td.text-center(style="border:0;") Prioridad
-            td.text-center(style="border:0;") Complejidad
-            td.text-center(style="border:0;border-right:1px #AFAFAF solid;") Grado de #[br] cumplimiento
-            td.text-center(style="border:0;") Objetivo
-            td.text-center(style="border:0;") Necesidad del #[br] negocio
-            td.text-center(style="border:0;") Entregable
+            td.text-center(style="border:0;font-size:10px;") ID
+            td.text-center(style="border:0;font-size:10px;") Código #[br] jerárquico 
+            td.text-center(style="border:0;font-size:10px;") Descripción
+            td.text-center(style="border:0;font-size:10px;border-right:1px #AFAFAF solid;") Tipo
+            td.text-center(style="border:0;font-size:10px;") Versión
+            td.text-center(style="border:0;font-size:10px;") Estado 
+            td.text-center(style="border:0;font-size:10px;") Fecha de estado
+            td.text-center(style="border:0;font-size:10px;border-right:1px #AFAFAF solid;") Responsable
+            td.text-center(style="border:0;font-size:10px;") Prioridad
+            td.text-center(style="border:0;font-size:10px;") Complejidad
+            td.text-center(style="border:0;font-size:10px;border-right:1px #AFAFAF solid;") Grado de #[br] cumplimiento
+            td.text-center(style="border:0;font-size:10px;") Objetivo
+            td.text-center(style="border:0;font-size:10px;") Necesidad del #[br] negocio
+            td.text-center(style="border:0;font-size:10px;") Entregable
           tr(style="background-color:#F6F6F6;")
             td.p-3(style="border:0;border-right:1px #AFAFAF solid;")
             td.p-3(style="border:0;border-right:1px #AFAFAF solid;")
@@ -615,7 +609,7 @@
     .cont_1_4.pt-5.pb-5
       .col-xl-10.m-auto
         figure
-          img(src="@/assets/curso/tema1/33.svg" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema1/33.svg" data-aos="zoom-in-up" alt="Ejemplo de descomposición funcional de un sistema de gestión comercialización de productos")
 
 
 
