@@ -140,7 +140,7 @@ export default {
     {
       tema: '2. Especificación de requisitos',
       referencia:
-        'UMNG. (2019). <em>Elementos de la norma IEEE 830</em>. [Video]. YouTube.',
+        'UMNG. (2019). <em>Elementos de la norma IEEE 830</em>. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/LjBOTZdd_iE',
     },
@@ -149,7 +149,8 @@ export default {
       referencia:
         'California State University Long Beach. (2021). <em>Requirements Engineering, CSU Long Beach, Penzenstadler</em>. ',
       tipo: 'Página web',
-      link: 'https://bit.ly/3rtBKXN',
+      link:
+        'http://www.foss2serve.org/index.php/Requirements_Engineering,_CSU_Long_Beach,_Penzenstadler',
     },
     {
       tema: '2.1 Estándar IEEE 830',
@@ -181,12 +182,12 @@ export default {
     {
       termino: 'Marcos de trabajo ágiles',
       significado:
-        'conjunto de estándares, metodologías, técnicas, frameworks o guías que rigen un proceso de desarrollo de software basadas en principios y/o valores ágiles como, por ejemplo: Scrum, Lean Software, XP, TDD, entre otros.',
+        'conjunto de estándares, metodologías, técnicas, <em>frameworks</em> o guías que rigen un proceso de desarrollo de <em>software</em> basadas en principios y/o valores ágiles como, por ejemplo: Scrum, Lean <em>Software</em>, XP, TDD, entre otros.',
     },
     {
       termino: 'Marcos de trabajo tradicionales',
       significado:
-        'conjunto de estándares, metodologías, técnicas, frameworks o guías que rigen un proceso de desarrollo de software basadas en el ciclo de vida tradicional del software como, por ejemplo: RUP, CMMI, ISO 9001, Microsoft Solution Framework, entre otros. ',
+        'conjunto de estándares, metodologías, técnicas, <em>frameworks</em> o guías que rigen un proceso de desarrollo de <em>software</em> basadas en el ciclo de vida tradicional del <em>software</em> como, por ejemplo: RUP, CMMI, ISO 9001, Microsoft Solution Framework, entre otros. ',
     },
     {
       termino: 'Metodología',
@@ -223,12 +224,14 @@ export default {
     {
       referencia:
         'Penzenstadler, B. (s. f.). <em>Requirements engineering</em>. CSU Long Beach.',
-      link: 'https://bit.ly/3rtBKXN ',
+      link:
+        'http://www.foss2serve.org/index.php/Requirements_Engineering,_CSU_Long_Beach,_Penzenstadler ',
     },
     {
       referencia:
         'Porfirio, C. (2021). <em>Técnicas de priorización: el desafío de conseguir un orden para las funcionalidades</em>.',
-      link: 'https://bit.ly/3cvumqz',
+      link:
+        'https://www.knowmadmood.com/es/blog/tcnicas-de-priorizacin-el-desafo-de-conseguir-un-orden-para-las-funcionalidades',
     },
     {
       referencia:
@@ -251,15 +254,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Maria Camila Garcia Santamaria',
-          cargo: 'Líder del equipo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor metodológico y pedagógico',
+          nombre: 'Olga Constanza Bermudez Jaimes',
+          cargo: 'Responsable de Línea de Producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -267,34 +270,21 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
+          nombre: 'Zulema Yidney León Escobar',
+          cargo: 'Experta Temática',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
           nombre: 'Jonathan Guerrero Astaiza',
           cargo: 'Experto temático',
           centro:
-            'Regional Cauca - Centro de teleinformática y producción industrial',
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
-          nombre: 'Zulema Yidney León Escobar',
-          cargo: 'Experto temático',
-          centro:
-            'Regional Cauca - Centro de teleinformática y producción industrial',
-        },
-        {
-          nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Diseñadora instruccional',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Miroslava González Hernández',
-          cargo: 'Diseñadora Instruccional',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Rafael Neftali Lizcano Reyes',
-          cargo: 'Responsable desarrollo curricular Ecosistema RED Santander',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -302,57 +292,22 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Responsable del equipo',
+          nombre: 'Yerson Fabian Zarate Saavedra',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Regional Santander - Centro industrial del diseño y la manufactura',
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Leyson Fabian Castaño Perez',
-          cargo: 'Soporte organizacional',
-          centro: 'Regional Tolima - Centro de comercio y servicios',
+          nombre: 'Luis Jesús Pérez Madariaga',
+          cargo: 'Desarrollador Fullstack',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'José Jaime Luis Tang Pinzón',
-          cargo: 'Diseño web y Producción Audiovisual',
+          nombre: 'Edgar Mauricio Cortes Garcia',
+          cargo: 'Actividad Didáctica',
           centro:
-            'Regional Santander - Centro industrial del diseño y la manufactura',
-        },
-        {
-          nombre: 'Juan Daniel Polanco Muñoz',
-          cargo: 'Diseño web y Producción Audiovisual',
-          centro:
-            'Regional Santander - Centro industrial del diseño y la manufactura',
-        },
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Diseño web y Producción Audiovisual',
-          centro:
-            'Regional Santander - Centro industrial del diseño y la manufactura',
-        },
-        {
-          nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Diseño web y Producción Audiovisual',
-          centro:
-            'Regional Santander - Centro industrial del diseño y la manufactura',
-        },
-        {
-          nombre: 'Wilson Andres Arenales Cáceres',
-          cargo: 'Diseño web y Producción Audiovisual',
-          centro:
-            'Regional Santander - Centro industrial del diseño y la manufactura',
-        },
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Desarrollo Front-End',
-          centro:
-            'Regional Santander - Centro industrial del diseño y la manufactura',
-        },
-        {
-          nombre: 'Rafael Augusto Mantilla',
-          cargo: 'Revisor de contenidos',
-          centro:
-            'Regional Santander - Centro industrial del diseño y la manufactura',
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -360,9 +315,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Validación de recursos',
-          centro: 'Regional Tolima - Centro de comercio y servicios',
+          nombre: 'Zuleidy María Ruiz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },

@@ -37,7 +37,7 @@
       p.mt-4.fw-bold(data-aos="fade-right") Sumado a esto, se presenta la estructura base de un documento SRS, indicando cuáles son los apartados principales.
 
       .titulo-sexto.color-acento-contenido.mt-4(data-aos="zoom-in-down")
-        h5 Figura 2. 
+        h5 
         span Estructura base de un documento SRS
       
       .row.mt-4
@@ -204,7 +204,7 @@
           img(src="@/assets/curso/tema2/12.png")
     
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
-      h5 Tabla 6. 
+      h5
       span Estructura base de un documento de historia de usuario
 
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
@@ -290,6 +290,7 @@
     figure.mt-4(data-aos="zoom-in-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption.mt-3(style="background-color:;") Video: Scrum y la especificación de requisitos
       
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="fade-right")
@@ -298,7 +299,7 @@
       .col-lg-8(data-aos="fade-left")
         .p-4(style="background-color:#E1F6EF;border-radius:12px;")
           p #[strong(style="color:#0F6BD2;") Scrum] establece el concepto de #[strong(style="color:#0F6BD2;font-style:italic;") sprint] para referirse a una iteración que contempla tiempos fijos entre 2 y 4 semanas dependiendo del equipo de trabajo, durante este tiempo se incluye la planeación del #[strong(style="color:#0F6BD2;font-style:italic;") sprint], donde se definen los requerimientos a desarrollar en ese periodo de tiempo, una fase de construcción del producto y, finalmente, un proceso de despliegue para poder hacer la respectiva demostración de lo construido al final de iteración en reuniones de revisión; en este marco de trabajo se redefine el concepto de requerimiento hecho y normalmente va mucho más allá de construir el código, por lo general, se incluyen procesos de validación con pruebas unitarias y pruebas de integración.
-          p.mt-4 El artefacto mediante el cual se condensan todos los requerimientos del sistema se denomina #[strong(style="color:#0F6BD2;") pila de producto (product backlog)], la cual es una lista ordenada por prioridad de todos los requerimientos del sistema generalmente descritos en la forma de #[strong(style="color:#0F6BD2;") historias de usuario].
+          p.mt-4 El artefacto mediante el cual se condensan todos los requerimientos del sistema se denomina #[strong(style="color:#0F6BD2;") pila de producto (#[#em product backlog])], la cual es una lista ordenada por prioridad de todos los requerimientos del sistema generalmente descritos en la forma de #[strong(style="color:#0F6BD2;") historias de usuario].
         p.mt-4 Todas las historias de usuario se priorizan utilizando números enteros consecutivos de 1 hasta N, donde 1 representa la máxima prioridad. Esta priorización la realiza únicamente el dueño del producto y, para eso, utiliza la información que tiene sobre el negocio y recomendaciones de expertos buscando el mayor retorno de inversión a sus clientes. La priorización de las historias de usuario en la pila de producto puede variar en el transcurso del tiempo, pero solo la podrá realizar el dueño del producto.
     
     .cont_2_3.pb-5.mt-5
@@ -328,7 +329,7 @@
       p.mt-5(data-aos="fade-right") A continuación, se expone una figura en la que se representan los artefactos generados dentro del marco de trabajo Scrum y que permiten la gestión de los requisitos y el evento desde el cual se construye inicialmente.
 
       .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
-        h5 Figura 3.
+        h5 
         span Pila de producto vs. pila del #[em Sprint]
       .col-xl-10.m-auto.mt-4(data-aos="zoom-in-up")
         .bg-white.p-3.p-lg-5
@@ -453,7 +454,7 @@
         p.mt-4 Cada equipo de trabajo puede realizar un mapeo más detallado de su proceso y agregar tanta sección como considere pertinente, como se muestra en la siguiente figura.
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
-      h5 Figura 4.
+      h5 
       span Tablero Kanban
     .cont_2_4.mt-4(data-aos="zoom-in-up")
       .col-xl-8.col-lg-10.m-auto.pt-4.pb-4.pt-lg-5.pb-lg-5

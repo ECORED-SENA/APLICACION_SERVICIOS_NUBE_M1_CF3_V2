@@ -8,13 +8,14 @@
       h1 Técnicas de análisis de requisitos
 
     .cont_1_1.p-4.p-lg-5
-      .row
-        .col-lg-4.col-xl-4.mb-4.mb-lg-0(data-aos="fade-right")
-          figure.m-auto.col-md-5.col-lg-12.col-8
-            img(src="@/assets/curso/tema1/1.png" style="z-index:1;")
-        .col-lg-8.col-xl-8(data-aos="fade-left" style="place-self:center;")
-          .cont_1_2.p-4.p-lg-0
-            p.mb-0 El proceso de análisis de requisitos #[strong(style="color:#0F6BD2;") permite, principalmente, el estudio de las necesidades de los usuarios para definir requisitos del sistema por medio de la producción del documento de especificación de requisitos donde se describe lo que el sistema debe hacer], pero no el cómo. Así es como este proceso, además de involucrar un proceso de análisis, también requiere de la síntesis de la información existente. 
+      .cont_1_2
+        .row
+          .col-lg-4.col-xl-4.mb-4.mb-lg-0(data-aos="fade-right")
+            figure.m-auto.col-md-5.col-lg-12.col-8
+              img(src="@/assets/curso/tema1/1.png" style="z-index:1;")
+          .col-lg-8.col-xl-8(data-aos="fade-left" style="place-self:center;")
+            .p-4.p-lg-0
+              p.mb-0.mt-0.mt-lg-5 El proceso de análisis de requisitos #[strong(style="color:#0F6BD2;") permite, principalmente, el estudio de las necesidades de los usuarios para definir requisitos del sistema por medio de la producción del documento de especificación de requisitos donde se describe lo que el sistema debe hacer], pero no el cómo. Así es como este proceso, además de involucrar un proceso de análisis, también requiere de la síntesis de la información existente. 
 
     p.mt-5(data-aos="fade-right" style="color:#0F6BD2;font-weight:bold;") A continuación, se describen algunas técnicas que pueden ser utilizadas para entender y ordenar los requisitos identificados para su posterior redacción en un artefacto formal dependiendo del marco de desarrollo de #[em(style="color:#0F6BD2;font-weight:bold;") software] utilizado.
 
@@ -23,7 +24,7 @@
     .titulo-segundo(data-aos="zoom-in-right")
       h2#t_1_1 1.1 Priorización de requisitos
     
-    p(data-aos="fade-right") Esta es una actividad clave para el éxito en la construcción de producto de software y su objetivo es maximizar el valor entregado por el proyecto a sus clientes; es decir, identificar cuáles requisitos se deben priorizar tomando en cuenta factores como la complejidad, las dependencias y el retorno de inversión a los clientes, entre otros indicadores.
+    p(data-aos="fade-right") Esta es una actividad clave para el éxito en la construcción de producto de #[em software] y su objetivo es maximizar el valor entregado por el proyecto a sus clientes; es decir, identificar cuáles requisitos se deben priorizar tomando en cuenta factores como la complejidad, las dependencias y el retorno de inversión a los clientes, entre otros indicadores.
 
     .cont_1_3.mt-4.pb-5.pt-4
       .row
@@ -69,7 +70,7 @@
                 div(style="place-self:center;")
                   figure
                     img(src="@/assets/curso/tema1/8.svg" style="max-width:100px;display:inline;")
-              p.mt-3.mb-0 Para usar adecuadamente esta técnica se requiere de un profundo conocimiento de todos los requerimientos definidos y si bien el proceso parece simple, se requiere de un gran esfuerzo por parte del equipo para situar a cada requerimiento en la posición correcta.
+              p.mt-3.mb-0 Para usar adecuadamente esta técnica, se requiere de un profundo conocimiento de todos los requerimientos definidos y si bien el proceso parece simple, se requiere de un gran esfuerzo por parte del equipo para situar a cada requerimiento en la posición correcta.
     
     .cont_titulo_decorativo.mt-3(data-aos="fade-right")
       .row
@@ -87,11 +88,11 @@
           img(src="@/assets/curso/tema1/10.png")
       .col-lg-7(data-aos="fade-left")
         .p-4(style="background-color:#DCECFE;border-radius:12px;")
-          p.mb-0 Usar solo el valor del negocio como elemento de priorización puede generar problemas ya que el valor asociado por el cliente a un requerimiento puede ser muy superfluo y, además, no considera detalles clave como el esfuerzo que se requiere para su desarrollo, por esta razón también se usa el valor de puntos de historia, que no es más que otro valor numérico asignado por el equipo de desarrolladores a cada requerimiento donde expresa una estimación de esfuerzo, cuanto más grande sea el número implica más esfuerzo requerido con miras a realizar el requerimiento.
+          p.mb-0 Usar solo el valor del negocio como elemento de priorización puede generar problemas, ya que el valor asociado por el cliente a un requerimiento puede ser muy superfluo y, además, no considera detalles clave como el esfuerzo que se requiere para su desarrollo; por esta razón, también se usa el valor de puntos de historia, que no es más que otro valor numérico asignado por el equipo de desarrolladores a cada requerimiento, en el que se expresa una estimación de esfuerzo. Cuanto más grande sea el número, implica más esfuerzo requerido con miras a realizar el requerimiento.
         p.mt-4 Para lograr la priorización de los requerimientos, se debe realizar el cálculo del cociente obtenido a partir de los puntos de valor del negocio dividido entre los puntos de historia, quedando entonces una priorización donde estarán en los primeros lugares los requerimientos más sencillos de resolver por los desarrolladores y que tengan mayor interés por parte del cliente. #[strong(style="color:#0F6BD2;") A continuación se da un ejemplo].
     
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
-      h5 Tabla 1. 
+      h5
       span Ejemplo de aplicación técnica de puntos de historia y valor del negocio
     
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
@@ -164,7 +165,7 @@
           img(src="@/assets/curso/tema1/12.png")
     
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
-      h5 Tabla 2. 
+      h5 
       span Referencia para la técnica urgente
     
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
@@ -222,7 +223,7 @@
     p.mt-4(data-aos="fade-right") Luego, se consideran los requerimientos de mayor prioridad que están en el sector de color rojo, después los de color naranja, seguido de los de color amarillo y, por último, los requerimientos del sector de color verde. Para entender mejor este estilo de priorización, observar el siguiente ejemplo:
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
-      h5 Tabla 3. 
+      h5
       span Ejemplo de aplicación técnica urgente
 
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
@@ -343,7 +344,7 @@
             figure
               img(src="@/assets/curso/tema1/20.svg")
           .col(style="place-self:center;")
-            p.mb-0 Normalmente el proceso de desarrollo de software es iterativo e incremental por lo que dependiendo del momento en que se encuentre un requerimiento, que ahora puede ser #[strong(style="color:#0F6BD2;") W], en la siguiente iteración puede asumir un valor de #[strong(style="color:#0F6BD2;") M]. 
+            p.mb-0 Normalmente el proceso de desarrollo de #[em software] es iterativo e incremental por lo que dependiendo del momento en que se encuentre un requerimiento, que ahora puede ser #[strong(style="color:#0F6BD2;") W], en la siguiente iteración puede asumir un valor de #[strong(style="color:#0F6BD2;") M]. 
     
     .cont_titulo_decorativo.mt-5(data-aos="fade-left")
       .row
@@ -380,7 +381,7 @@
     p.mt-4(data-aos="fade-left") #[strong(style="color:#0F6BD2;") Por ejemplo, se debe considerar la siguiente tabla:]
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
-      h5 Tabla 4. 
+      h5 
       span Ejemplo de aplicación técnica de matriz de priorización
 
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
@@ -393,7 +394,7 @@
             th.text-center(style="border:0;background-color:#FFA726;border-right:1px #B58F19 solid;") Criterios
             th.text-center(style="border:0;background-color:#FFA726;border-right:1px #B58F19 solid;") 
             th.text-center.text-white(style="border:0;background-color:#26A69A;border-right:1px #B58F19 solid;") Resultado
-            th.text-center(style="border:0;background-color:#FFCA28;" rowspan="2") Ranking
+            th.text-center(style="border:0;background-color:#FFCA28;" rowspan="2") #[em Ranking]
           tr
             th.text-center(style="border:0;background-color:#FFCA28;border-right:1px #B58F19 solid;") Conversión #[br] 30%
             th.text-center(style="border:0;background-color:#FFCA28;border-right:1px #B58F19 solid;") Satisfacción de #[br] usuario 40% 
@@ -496,7 +497,7 @@
     p.mt-5(data-aos="fade-right") A continuación, se muestra el ejemplo de la estructura en Excel de una matriz de trazabilidad.
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
-      h5 Tabla 5. 
+      h5
       span Ejemplo de la estructura de una matriz de trazabilidad
 
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
@@ -603,7 +604,7 @@
           p La descomposición funcional se realiza, por lo general, para identificar y entender los componentes o partes que constituyen un todo; en este proceso es vital identificar las interacciones entre componentes. #[strong(style="color:#0F6BD2;") A continuación, se expone un ejemplo gráfico sobre esta descomposición funcional.]
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
-      h5 Figura 1. 
+      h5 
       span Ejemplo de descomposición funcional de un sistema de gestión comercialización de productos (fragmento)
     
     .cont_1_4.pt-5.pb-5
@@ -652,11 +653,11 @@ export default {
 .cont_1_2:before
   content: ''
   position: absolute
-  width: 117%
-  height: 130%
-  top: -14%
+  width: 95%
+  height: 80%
+  top: 20%
   background-color: #fff
-  left: -15%
+  right: -2%
   z-index: 0
   border-radius: 10px
 .cont_1_3, .cont_1_3 *
@@ -703,4 +704,5 @@ export default {
     height: 100%
     left: 0
     top: 0
+    right: 0
 </style>
