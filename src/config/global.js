@@ -315,12 +315,6 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro:

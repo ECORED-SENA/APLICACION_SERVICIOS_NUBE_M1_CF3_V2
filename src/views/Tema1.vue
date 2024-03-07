@@ -228,7 +228,6 @@
 
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
       table
-        caption.fw-normal(style="background-color:#F6F6F6;color:#636363;") Tabla 3 - Ejemplo de aplicación técnica urgente
         thead(style="border:0;")
           tr(style="background-color:#FFCE00;")
             th.text-center(style="border:0;") Requerimientos
@@ -386,7 +385,6 @@
 
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
       table
-        caption.fw-normal.mt-2(style="background-color:#F6F6F6;color:#636363;") Tabla 4 - Ejemplo de aplicación técnica de matriz de priorización
         thead(style="border:0;")
           tr
             th.text-center(style="border:0;background-color:#FFCA28;border-right:1px #B58F19 solid;" rowspan="2") Requerimiento

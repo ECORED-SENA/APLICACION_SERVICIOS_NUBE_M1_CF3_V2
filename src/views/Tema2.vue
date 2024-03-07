@@ -150,7 +150,7 @@
             li.d-flex
               .lista-ol--cuadro__vineta(style="background-color:#1682FB;")
                 span 4
-              | Interfaces del sistema: interacción entre personas con el software.
+              div Interfaces del sistema: interacción entre personas con el #[em software].
             li.d-flex
               .lista-ol--cuadro__vineta(style="background-color:#1682FB;")
                 span 5
@@ -299,7 +299,7 @@
       .col-lg-8(data-aos="fade-left")
         .p-4(style="background-color:#E1F6EF;border-radius:12px;")
           p #[strong(style="color:#0F6BD2;") Scrum] establece el concepto de #[strong(style="color:#0F6BD2;font-style:italic;") sprint] para referirse a una iteración que contempla tiempos fijos entre 2 y 4 semanas dependiendo del equipo de trabajo, durante este tiempo se incluye la planeación del #[strong(style="color:#0F6BD2;font-style:italic;") sprint], donde se definen los requerimientos a desarrollar en ese periodo de tiempo, una fase de construcción del producto y, finalmente, un proceso de despliegue para poder hacer la respectiva demostración de lo construido al final de iteración en reuniones de revisión; en este marco de trabajo se redefine el concepto de requerimiento hecho y normalmente va mucho más allá de construir el código, por lo general, se incluyen procesos de validación con pruebas unitarias y pruebas de integración.
-          p.mt-4 El artefacto mediante el cual se condensan todos los requerimientos del sistema se denomina #[strong(style="color:#0F6BD2;") pila de producto (#[#em product backlog])], la cual es una lista ordenada por prioridad de todos los requerimientos del sistema generalmente descritos en la forma de #[strong(style="color:#0F6BD2;") historias de usuario].
+          p.mt-4 El artefacto mediante el cual se condensan todos los requerimientos del sistema se denomina #[strong(style="color:#0F6BD2;") pila de producto (#[em product backlog])], la cual es una lista ordenada por prioridad de todos los requerimientos del sistema generalmente descritos en la forma de #[strong(style="color:#0F6BD2;") historias de usuario].
         p.mt-4 Todas las historias de usuario se priorizan utilizando números enteros consecutivos de 1 hasta N, donde 1 representa la máxima prioridad. Esta priorización la realiza únicamente el dueño del producto y, para eso, utiliza la información que tiene sobre el negocio y recomendaciones de expertos buscando el mayor retorno de inversión a sus clientes. La priorización de las historias de usuario en la pila de producto puede variar en el transcurso del tiempo, pero solo la podrá realizar el dueño del producto.
     
     .cont_2_3.pb-5.mt-5
@@ -352,7 +352,7 @@
         .h-100.p-4(style="background-color:#E1F6EF;border-radius:12px;")
           p.mb-0 A principios del siglo XXI, la industria del #[em software] adoptó el Kanban para cambiar la forma en la que se producían y entregaban productos y servicios; además, tiene en cuenta los principios de las metodologías ágiles, en especial de Scrum, pero busca darle más protagonismo al proceso de experimentación y mejora continua (Rivadeneira, 2014).
     
-    p.mt-4.fw-bold(data-aos="fade-right") Kanban en la industria del software se basa en cuatro principios fundamentales:
+    p.mt-4.fw-bold(data-aos="fade-right") Kanban en la industria del #[em software] se basa en cuatro principios fundamentales:
 
     .cont_2_2
       .row.mt-4
