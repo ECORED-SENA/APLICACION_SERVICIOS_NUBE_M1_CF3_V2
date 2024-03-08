@@ -93,7 +93,7 @@
     
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
       h5
-      span Ejemplo de aplicación técnica de puntos de historia y valor del negocio
+      span #[b Tabla 1.] Ejemplo de aplicación técnica de puntos de historia y valor del negocio
     
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
       table
@@ -166,7 +166,7 @@
     
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
       h5 
-      span Referencia para la técnica urgente
+      span #[b Tabla 2.] Referencia para la técnica urgente
     
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
       table
@@ -224,7 +224,7 @@
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
       h5
-      span Ejemplo de aplicación técnica urgente
+      span #[b Tabla 3.] Ejemplo de aplicación técnica urgente
 
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
       table
@@ -381,7 +381,7 @@
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
       h5 
-      span Ejemplo de aplicación técnica de matriz de priorización
+      span #[b Tabla 4.] Ejemplo de aplicación técnica de matriz de priorización
 
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
       table
@@ -496,17 +496,17 @@
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
       h5
-      span Ejemplo de la estructura de una matriz de trazabilidad
+      span #[b Tabla 5.] Ejemplo de la estructura de una matriz de trazabilidad
 
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
       table.tabla_1
         caption.fw-normal.mt-2(style="background-color:#F6F6F6;color:#636363;") Nota: Tomado de Pantaleo (2018).
         thead(style="border:0;")
           tr
-            th.text-center(style="border:0;background-color:#FFA726;border-right:2px white solid;border-bottom:2px white solid;" colspan="4") IDENTIFICACIÓN
-            th.text-center(style="border:0;background-color:#4DD0E1;border-right:2px white solid;border-bottom:2px white solid;" colspan="4") ESTADO
-            th.text-center(style="border:0;background-color:#FFA726;border-right:2px white solid;border-bottom:2px white solid;" colspan="3") CARACTERÍSTICAS
-            th.text-center(style="border:0;background-color:#4DD0E1;border-bottom:2px white solid;" colspan="3") OBJETIVO
+            th.text-center(style="border:0;background-color:#FFA726;border-right:2px white solid;border-bottom:2px white solid;" colspan="4") Identificación
+            th.text-center(style="border:0;background-color:#4DD0E1;border-right:2px white solid;border-bottom:2px white solid;" colspan="4") Estado
+            th.text-center(style="border:0;background-color:#FFA726;border-right:2px white solid;border-bottom:2px white solid;" colspan="3") Características
+            th.text-center(style="border:0;background-color:#4DD0E1;border-bottom:2px white solid;" colspan="3") Objetivo
         tbody
           tr(style="background-color:#FFCA28;")
             td.text-center(style="border:0;font-size:10px;") ID
@@ -603,7 +603,7 @@
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
       h5 
-      span Ejemplo de descomposición funcional de un sistema de gestión comercialización de productos (fragmento)
+      span #[b Figura 1.] Ejemplo de descomposición funcional de un sistema de gestión comercialización de productos (fragmento)
     
     .cont_1_4.pt-5.pb-5
       .col-xl-10.m-auto

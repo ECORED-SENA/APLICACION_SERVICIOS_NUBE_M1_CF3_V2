@@ -205,7 +205,7 @@
     
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
       h5
-      span Estructura base de un documento de historia de usuario
+      span #[b Tabla 6.] Estructura base de un documento de historia de usuario
 
     .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
       table
@@ -330,7 +330,7 @@
 
       .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
         h5 
-        span Pila de producto vs. pila del #[em Sprint]
+        span #[b Figura 2.] Pila de producto vs. pila del #[em Sprint]
       .col-xl-10.m-auto.mt-4(data-aos="zoom-in-up")
         .bg-white.p-3.p-lg-5
           .col-xl-11.m-auto
@@ -455,7 +455,7 @@
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
       h5 
-      span Tablero Kanban
+      span #[b Figura 3.] Tablero Kanban
     .cont_2_4.mt-4(data-aos="zoom-in-up")
       .col-xl-8.col-lg-10.m-auto.pt-4.pb-4.pt-lg-5.pb-lg-5
         figure
