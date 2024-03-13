@@ -284,8 +284,7 @@ export default {
         {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Evaluadora Instruccional',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -301,7 +300,8 @@ export default {
         {
           nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Edgar Mauricio Cortés García',
@@ -341,22 +341,26 @@ export default {
         {
           nombre: 'Luis Gabriel Urueta Álvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
           cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
-          centro: 'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
-          centro: 'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
