@@ -254,7 +254,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
+          nombre: 'Maria Camila Garcia Santamaria',
           cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
@@ -277,14 +277,15 @@ export default {
         },
         {
           nombre: 'Jonathan Guerrero Astaiza',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -292,7 +293,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yerson Fabian Zarate Saavedra',
+          nombre: 'Yerson Fabián Zárate Saavedra',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
@@ -300,12 +301,35 @@ export default {
         {
           nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador Fullstack',
+          centro: 'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Edgar Mauricio Cortés García',
+          cargo: 'Actividad Didáctica',
           centro:
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Edgar Mauricio Cortes Garcia',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Pendiente',
+          cargo: 'Intérprete Lenguaje de señas',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Pendiente',
+          cargo: 'Storyboard e Ilustración',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Pendiente',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Pendiente',
+          cargo: 'Locución',
           centro:
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -315,16 +339,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
+          nombre: 'Luis Gabriel Urueta Álvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro: 'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Margarita Marcela Medrano Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro: 'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
-          centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
