@@ -289,8 +289,9 @@
 
     figure.mt-4(data-aos="zoom-in-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/yGtQE5dNdnk" title="Scrum y la especificación de requisitos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/DSO1YzSAx4s" title="Scrum y la especificación de requisitos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption.mt-3(style="background-color:;") Video: Scrum y la especificación de requisitos
+    
       
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="fade-right")
