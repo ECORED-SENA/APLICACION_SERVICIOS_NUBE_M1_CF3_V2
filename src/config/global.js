@@ -310,26 +310,8 @@ export default {
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Pendiente',
-          cargo: 'Intérprete Lenguaje de señas',
-          centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Pendiente',
-          cargo: 'Storyboard e Ilustración',
-          centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Pendiente',
+          nombre: 'Daniela Muñoz Bedoya',
           cargo: 'Animador y Productor Multimedia',
-          centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Pendiente',
-          cargo: 'Locución',
           centro:
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
