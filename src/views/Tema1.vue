@@ -89,7 +89,7 @@
       .col-lg-7(data-aos="fade-left")
         .p-4(style="background-color:#DCECFE;border-radius:12px;")
           p.mb-0 Usar solo el valor del negocio como elemento de priorización puede generar problemas, ya que el valor asociado por el cliente a un requerimiento puede ser muy superfluo y, además, no considera detalles clave como el esfuerzo que se requiere para su desarrollo; por esta razón, también se usa el valor de puntos de historia, que no es más que otro valor numérico asignado por el equipo de desarrolladores a cada requerimiento, en el que se expresa una estimación de esfuerzo. Cuanto más grande sea el número, implica más esfuerzo requerido con miras a realizar el requerimiento.
-        p.mt-4 Para lograr la priorización de los requerimientos, se debe realizar el cálculo del cociente obtenido a partir de los puntos de valor del negocio dividido entre los puntos de historia, quedando entonces una priorización donde estarán en los primeros lugares los requerimientos más sencillos de resolver por los desarrolladores y que tengan mayor interés por parte del cliente. #[strong(style="color:#0F6BD2;") A continuación se da un ejemplo].
+        p.mt-4 Para lograr la priorización de los requerimientos, se debe realizar el cálculo del cociente obtenido a partir de los puntos de valor del negocio dividido entre los puntos de historia, quedando entonces una priorización donde estarán en los primeros lugares los requerimientos más sencillos de resolver por los desarrolladores y que tengan mayor interés por parte del cliente. #[strong(style="color:#0F6BD2;") A continuación, se da un ejemplo].
     
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-in-down")
       h5

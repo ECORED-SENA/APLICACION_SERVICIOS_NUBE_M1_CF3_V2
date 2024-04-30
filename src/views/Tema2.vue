@@ -21,7 +21,7 @@
       h2#t_2_1 2.1 Estándar IEEE 830
     
     .cont_2_1.pt-5.pb-5
-      p(data-aos="fade-right") Este estándar presenta un conjunto de prácticas recomendadas para la redacción de un documento de especificación de requerimientos mejor conocido como SRS. Este documento está dividido en secciones y cada una de ellas aborda aspectos particulares. #[strong(style="color:#0F6BD2;") A continuación, se describirá de forma general algunos de los elementos que conforman este documento (IEEE 830-1998).]
+      p(data-aos="fade-right") Este estándar presenta un conjunto de prácticas recomendadas para la redacción de un documento de especificación de requerimientos, mejor conocido como SRS. Este documento está dividido en secciones y cada una de ellas aborda aspectos particulares. #[strong(style="color:#0F6BD2;") A continuación, se describirán de forma general algunos de los elementos que conforman este documento (IEEE 830-1998).]
       .p-4.mt-5(style="background-color:#273A89;border-radius:12px;" data-aos="flip-up")
         .row
           .col-auto.d-none.d-md-block
@@ -46,7 +46,7 @@
             h4.mb-0 1. Introducción
             p.mb-0 1.1. Propósito
             p.mb-0 1.2. Ámbito del sistema
-            p.mb-0 1.3. Definiciones, Acrónimos y Abreviaturas
+            p.mb-0 1.3. Definiciones, acrónimos y abreviaturas
             p.mb-0 1.4. Referencias
             h4.mt-3.mb-0 2. Descripción general
             p.mb-0 2.1. Perspectiva del producto
@@ -69,7 +69,7 @@
             figure
               img(src="@/assets/curso/tema2/5.svg")
           .col(style="place-self:center;")
-            p.mb-0 #[strong Se sugiere revisar algunos ejemplos de proyectos, que se presentan sobre el diligenciamiento del formato SRS, los cuales se encuentran en el material complementario.]
+            p.mb-0 #[strong Se sugiere revisar algunos ejemplos de proyectos que se presentan sobre el diligenciamiento del formato SRS, los cuales se encuentran en el material complementario.]
     
     Separador
 
@@ -88,7 +88,7 @@
             img(src="@/assets/curso/tema2/6.png")
         .col-lg(data-aos="zoom-in")
           .h-100.p-4(style="background-color:#DCECFE;border-radius:12px;")
-            p Además, define la construcción de un buen requisito, proporciona atributos y características de los requisitos, y analiza la aplicación iterativa y recursiva del proceso de requisitos a lo largo del ciclo de vida. También proporciona orientación adicional en la aplicación de procesos de ingeniería y gestión de requerimientos relacionados con la ingeniería de requisitos al tiempo que define los elementos de información aplicables a la ingeniería de requisitos y su contenido.
+            p Además, define la construcción de un buen requisito, proporciona atributos y características de los requisitos, y analiza la aplicación iterativa y recursiva del proceso de requisitos a lo largo del ciclo de vida. También proporciona orientación adicional en la aplicación de procesos de ingeniería y gestión de requerimientos relacionados con la ingeniería de requisitos, al tiempo que define los elementos de información aplicables a la ingeniería de requisitos y su contenido.
       p.mt-5.fw-bold(data-aos="fade-right") El estándar IEEE 29148:2018 está estructurado de la siguiente forma:
       .row.mt-5
         .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
@@ -128,7 +128,7 @@
         .col-lg-5(data-aos="fade-left")
           figure.m-auto.col-7.col-md-7.col-lg-12
             img(src="@/assets/curso/tema2/9.svg")
-      p.mt-5(data-aos="fade-right") Esta norma propone un listado de requerimientos mínimos los cuales son la base de la especificación de requerimientos; en ese sentido, se proponen los siguientes tipos de requerimientos del sistema:
+      p.mt-5(data-aos="fade-right") Esta norma propone un listado de requerimientos mínimos, los cuales son la base de la especificación de requerimientos; en ese sentido, se proponen los siguientes tipos de requerimientos del sistema:
       .row.mt-5
         .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
           figure.m-auto.col-7.col-md-7.col-lg-12
@@ -138,7 +138,7 @@
             li.d-flex
               .lista-ol--cuadro__vineta(style="background-color:#1682FB;")
                 span 1
-              div Requerimientos funcionales: representan necesidades de los interesados del #[em software].
+              div Requerimientos funcionales: representan las necesidades de los interesados del #[em software].
             li.d-flex
               .lista-ol--cuadro__vineta(style="background-color:#1682FB;")
                 span 2
@@ -178,7 +178,7 @@
             li.d-flex
               .lista-ol--cuadro__vineta(style="background-color:#1682FB;")
                 span 11
-              div Políticas y regulación: normas y estándares que fundamenta el #[em software].
+              div Políticas y regulación: normas y estándares que fundamentan el #[em software].
             li.d-flex
               .lista-ol--cuadro__vineta(style="background-color:#1682FB;")
                 span 12
@@ -254,7 +254,7 @@
           .text-center 
             figure
               img(src="@/assets/curso/tema2/14.svg" style="max-width:100px;display:inline;")
-          p.text-center.mb-0.mt-1 Las historias de usuario permiten la colaboración, ya que como su descripción es corta se necesita que el equipo colabore para decidir cómo dar solución a la historia para cumplir con la necesidad expresada por el usuario.
+          p.text-center.mb-0.mt-1 Las historias de usuario permiten la colaboración, ya que como su descripción es corta, se necesita que el equipo colabore para decidir cómo dar solución a la historia para cumplir con la necesidad expresada por el usuario.
 
       .col-lg.col-md-6.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.p-3.cont_hover21(style="background-color:#DEE1ED;border-radius:12px;")
@@ -278,7 +278,7 @@
           .text-center 
             figure
               img(src="@/assets/curso/tema2/16.svg" style="max-width:100px;display:inline;")
-          p.text-center.mb-0.mt-1 Las historias de usuario motivan, pensar en la mejor solución para una problemática particular representan retos y pequeñas victorias para el equipo.
+          p.text-center.mb-0.mt-1 Las historias de usuario motivan a pensar en la mejor solución para una problemática particular, representan retos y pequeñas victorias para el equipo.
     
     Separador
 
@@ -299,8 +299,8 @@
           img(src="@/assets/curso/tema2/19.png")
       .col-lg-8(data-aos="fade-left")
         .p-4(style="background-color:#E1F6EF;border-radius:12px;")
-          p #[strong(style="color:#0F6BD2;") Scrum] establece el concepto de #[strong(style="color:#0F6BD2;font-style:italic;") sprint] para referirse a una iteración que contempla tiempos fijos entre 2 y 4 semanas dependiendo del equipo de trabajo, durante este tiempo se incluye la planeación del #[strong(style="color:#0F6BD2;font-style:italic;") sprint], donde se definen los requerimientos a desarrollar en ese periodo de tiempo, una fase de construcción del producto y, finalmente, un proceso de despliegue para poder hacer la respectiva demostración de lo construido al final de iteración en reuniones de revisión; en este marco de trabajo se redefine el concepto de requerimiento hecho y normalmente va mucho más allá de construir el código, por lo general, se incluyen procesos de validación con pruebas unitarias y pruebas de integración.
-          p.mt-4 El artefacto mediante el cual se condensan todos los requerimientos del sistema se denomina #[strong(style="color:#0F6BD2;") pila de producto (#[em product backlog])], la cual es una lista ordenada por prioridad de todos los requerimientos del sistema generalmente descritos en la forma de #[strong(style="color:#0F6BD2;") historias de usuario].
+          p #[strong(style="color:#0F6BD2;") Scrum] establece el concepto de #[strong(style="color:#0F6BD2;font-style:italic;") sprint] para referirse a una iteración que contempla tiempos fijos entre 2 y 4 semanas dependiendo del equipo de trabajo. Durante este tiempo, se incluye la planeación del #[strong(style="color:#0F6BD2;font-style:italic;") sprint], donde se definen los requerimientos a desarrollar en ese periodo de tiempo, una fase de construcción del producto y, finalmente, un proceso de despliegue para poder hacer la respectiva demostración de lo construido al final de iteración en reuniones de revisión. En este marco de trabajo, se redefine el concepto de requerimiento hecho y normalmente va mucho más allá de construir el código, por lo general, se incluyen procesos de validación con pruebas unitarias y pruebas de integración.
+          p.mt-4 El artefacto mediante el cual se condensan todos los requerimientos del sistema se denomina #[strong(style="color:#0F6BD2;") pila de producto (#[em product backlog])], la cual es una lista ordenada por prioridad de todos los requerimientos del sistema, generalmente descritos en la forma de #[strong(style="color:#0F6BD2;") historias de usuario].
         p.mt-4 Todas las historias de usuario se priorizan utilizando números enteros consecutivos de 1 hasta N, donde 1 representa la máxima prioridad. Esta priorización la realiza únicamente el dueño del producto y, para eso, utiliza la información que tiene sobre el negocio y recomendaciones de expertos buscando el mayor retorno de inversión a sus clientes. La priorización de las historias de usuario en la pila de producto puede variar en el transcurso del tiempo, pero solo la podrá realizar el dueño del producto.
     
     .cont_2_3.pb-5.mt-5
@@ -319,7 +319,7 @@
             figure
               img(src="@/assets/curso/tema2/22.svg")
           .col(style="place-self:center;")
-            p.mb-0 Selección de las historias de usuario a desarrollar durante al #[em sprint] tomando como referencia la prioridad y el valor del esfuerzo asociado a cada historia. Esto genera un artefacto llamado pila del #[em sprint] (#[em sprint backlog]) que lista los requerimientos descritos como historias de usuario a ser realizadas y evaluadas en el #[em sprint].
+            p.mb-0 Selección de las historias de usuario a desarrollar durante el #[em sprint] tomando como referencia la prioridad y el valor del esfuerzo asociado a cada historia. Esto genera un artefacto llamado pila del #[em sprint] (#[em sprint backlog]) que lista los requerimientos descritos como historias de usuario a ser realizadas y evaluadas en el #[em sprint].
         .row.pt-4.pb-4(style="border-top:1px #273A89 solid;border-bottom:1px #273A89 solid;" data-aos="flip-up")
           .col-auto(style="place-self:center;")
             figure
